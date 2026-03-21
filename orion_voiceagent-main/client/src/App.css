@@ -1,0 +1,144 @@
+/* App.css */
+/* Uses variables from index.css for proper theming */
+
+.loading-screen,
+.error-screen {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-primary);
+  /* Subtle luxurious gradient */
+  background-image: var(--gemini-gradient-bg);
+  color: var(--text-primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+/* Sparkle Loader representing Gemini AI */
+.loader {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.loader::before,
+.loader::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+}
+
+.loader::before {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--gemini-blue);
+  opacity: 0.6;
+}
+
+.loader::after {
+  width: 70%;
+  height: 70%;
+  border: 2px solid var(--gemini-purple);
+  animation-delay: 0.5s;
+  opacity: 0.8;
+}
+
+.loader-center {
+  width: 12px;
+  height: 12px;
+  background: var(--gemini-red);
+  border-radius: 50%;
+  box-shadow: 0 0 15px var(--gemini-red);
+  animation: pulse-dot 2s ease-in-out infinite;
+  z-index: 2;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-dot {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 0.6;
+  }
+}
+
+.loading-screen p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  background: var(--gemini-gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 16px;
+  letter-spacing: 0.5px;
+}
+
+.loading-subtext {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-top: 8px;
+  font-weight: 400;
+}
+
+/* Error Screen */
+.error-screen h2 {
+  margin-bottom: 16px;
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.error-screen p {
+  color: var(--text-secondary);
+}
+
+.error-screen button {
+  margin-top: 24px;
+  padding: 12px 32px;
+  background: var(--gemini-blue);
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  box-shadow: 0 4px 12px rgba(66, 133, 244, 0.3);
+}
+
+.error-screen button:hover {
+  background: #3367d6;
+  box-shadow: 0 6px 16px rgba(66, 133, 244, 0.4);
+  transform: translateY(-1px);
+}

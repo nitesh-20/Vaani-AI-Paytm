@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# LiveKit
+*.log
+recordings/
+
+# Build outputs
+*.wasm
+*.pyc
+client-nextjs-backup/
+.pids/
+backend/venv*/
+backend/check_google*.py
+backend/pyrightconfig.json
+bypass_run.sh
+read_bin.js
+start_vite.js
+test_node.js
+logs2/
+agent_output.log
+

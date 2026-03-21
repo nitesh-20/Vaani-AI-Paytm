@@ -1,0 +1,242 @@
+[
+  {
+    "date": "01/03/2024",
+    "time": "09:12:34",
+    "type": "credit",
+    "amount": 5000.0,
+    "name": "SALARY CREDIT",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "02/03/2024",
+    "time": "11:05:22",
+    "type": "debit",
+    "amount": 249.0,
+    "name": "Swiggy",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "03/03/2024",
+    "time": "14:30:00",
+    "type": "debit",
+    "amount": 500.0,
+    "name": "HIMANSHU VERMA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "03/03/2024",
+    "time": "18:45:10",
+    "type": "debit",
+    "amount": 349.0,
+    "name": "Zomato",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "04/03/2024",
+    "time": "10:20:15",
+    "type": "credit",
+    "amount": 2000.0,
+    "name": "RAHUL SHARMA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "05/03/2024",
+    "time": "08:55:00",
+    "type": "debit",
+    "amount": 199.0,
+    "name": "Jio Recharge",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "05/03/2024",
+    "time": "19:10:33",
+    "type": "debit",
+    "amount": 180.0,
+    "name": "Ola Cabs",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "06/03/2024",
+    "time": "13:00:00",
+    "type": "debit",
+    "amount": 1200.0,
+    "name": "Amazon Pay",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "07/03/2024",
+    "time": "16:22:45",
+    "type": "credit",
+    "amount": 1500.0,
+    "name": "PRIYA SINGH",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "08/03/2024",
+    "time": "09:45:00",
+    "type": "debit",
+    "amount": 350.0,
+    "name": "Uber",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "09/03/2024",
+    "time": "12:30:00",
+    "type": "debit",
+    "amount": 299.0,
+    "name": "Swiggy",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "10/03/2024",
+    "time": "14:15:20",
+    "type": "debit",
+    "amount": 8000.0,
+    "name": "BAJAJ FINANCE EMI",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "10/03/2024",
+    "time": "17:00:00",
+    "type": "credit",
+    "amount": 500.0,
+    "name": "HIMANSHU VERMA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "11/03/2024",
+    "time": "10:30:00",
+    "type": "debit",
+    "amount": 450.0,
+    "name": "Zomato",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "12/03/2024",
+    "time": "08:00:00",
+    "type": "debit",
+    "amount": 150.0,
+    "name": "Metro Card Recharge",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "13/03/2024",
+    "time": "20:15:00",
+    "type": "debit",
+    "amount": 600.0,
+    "name": "ARJUN MEHTA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "14/03/2024",
+    "time": "11:00:00",
+    "type": "credit",
+    "amount": 3000.0,
+    "name": "RAHUL SHARMA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "14/03/2024",
+    "time": "15:30:00",
+    "type": "debit",
+    "amount": 12000.0,
+    "name": "Unknown Merchant",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "15/03/2024",
+    "time": "09:00:00",
+    "type": "debit",
+    "amount": 249.0,
+    "name": "Swiggy",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "15/03/2024",
+    "time": "14:32:05",
+    "type": "debit",
+    "amount": 500.0,
+    "name": "HIMANSHU VERMA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "16/03/2024",
+    "time": "09:15:22",
+    "type": "credit",
+    "amount": 2100.0,
+    "name": "RAHUL SHARMA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "16/03/2024",
+    "time": "13:45:00",
+    "type": "debit",
+    "amount": 120.0,
+    "name": "Rapido",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "17/03/2024",
+    "time": "18:45:10",
+    "type": "debit",
+    "amount": 249.0,
+    "name": "Swiggy",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "17/03/2024",
+    "time": "20:00:00",
+    "type": "debit",
+    "amount": 299.0,
+    "name": "BookMyShow",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "18/03/2024",
+    "time": "10:00:00",
+    "type": "debit",
+    "amount": 398.0,
+    "name": "Airtel Recharge",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "18/03/2024",
+    "time": "16:30:00",
+    "type": "credit",
+    "amount": 800.0,
+    "name": "NEHA GUPTA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "19/03/2024",
+    "time": "08:30:00",
+    "type": "debit",
+    "amount": 180.0,
+    "name": "Uber",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "19/03/2024",
+    "time": "12:00:00",
+    "type": "debit",
+    "amount": 350.0,
+    "name": "Zomato",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "19/03/2024",
+    "time": "18:00:00",
+    "type": "credit",
+    "amount": 1000.0,
+    "name": "HIMANSHU VERMA",
+    "account": "HDFC ***1234"
+  },
+  {
+    "date": "19/03/2024",
+    "time": "21:00:00",
+    "type": "debit",
+    "amount": 199.0,
+    "name": "Swiggy",
+    "account": "HDFC ***1234"
+  }
+]

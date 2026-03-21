@@ -1,0 +1,98 @@
+:root {
+  /* Gemini Brand Colors */
+  --gemini-blue: #4285f4;
+  --gemini-purple: #9b72cb;
+  --gemini-red: #d96570;
+  --gemini-yellow: #fbbc04;
+
+  /* Gradients */
+  --gemini-gradient-text: linear-gradient(90deg, #4285f4, #9b72cb, #d96570);
+  --gemini-gradient-bg: linear-gradient(135deg, rgba(66, 133, 244, 0.05), rgba(155, 114, 203, 0.05));
+  --gemini-border-gradient: linear-gradient(to right, #4285f4, #9b72cb, #d96570);
+
+  /* Light Theme (Gemini Default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f4f9;
+  --bg-surface: #ffffff;
+  --bg-sidebar: #f0f4f9;
+  --text-primary: #1f1f1f;
+  --text-secondary: #444746;
+  --text-dim: #5f6368;
+  --border-color: #e0e3e7;
+  --hover-color: #f2f2f2;
+  --input-bg: #f0f4f9;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* Transition settings for smooth theme switching */
+  --theme-transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+[data-theme='dark'] {
+  /* Dark Theme (Gemini Dark) */
+  --bg-primary: #131314;
+  --bg-secondary: #1e1f20;
+  --bg-surface: #1e1f20;
+  --bg-sidebar: #0e0e0f;
+  --text-primary: #e3e3e3;
+  --text-secondary: #c4c7c5;
+  --text-dim: #8e918f;
+  --border-color: #444746;
+  --hover-color: #333537;
+  --input-bg: #1e1f20;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow: hidden;
+  transition: var(--theme-transition);
+  /* Global smooth transition */
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Global Utility Classes */
+.icon-button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--theme-transition);
+  /* Apply transition here too */
+}
+
+.icon-button:hover {
+  background-color: var(--hover-color);
+  color: var(--text-primary);
+}
