@@ -16,3 +16,4 @@ const GeminiOrb = ({ state }) => {
 };
 
 export default GeminiOrb;
+ 
