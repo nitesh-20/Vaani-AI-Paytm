@@ -41,3 +41,4 @@ def send_whatsapp(message_text: str) -> bool:
         logger.error("Failed to send WhatsApp message: %s", e)
         return False
  
+ 
