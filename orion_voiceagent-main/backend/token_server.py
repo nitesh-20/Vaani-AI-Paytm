@@ -74,3 +74,4 @@ if __name__ == '__main__':
     print("🚀 Token server running on http://localhost:3001")
     print("📝 Generating tokens for LiveKit rooms")
     app.run(host='0.0.0.0', port=3001, debug=False)
+ 
