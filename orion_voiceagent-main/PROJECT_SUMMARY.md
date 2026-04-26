@@ -193,3 +193,4 @@ Need help? Check:
 - Backend logs in `logs/` directory
 - LiveKit dashboard for connection issues
  
+ 
