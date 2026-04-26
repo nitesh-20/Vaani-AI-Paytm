@@ -192,3 +192,4 @@ Need help? Check:
 - QUICKSTART.md for quick reference
 - Backend logs in `logs/` directory
 - LiveKit dashboard for connection issues
+ 
