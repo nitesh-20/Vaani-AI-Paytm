@@ -115,3 +115,4 @@ def find_canonical_name(query: str, transactions: list[dict], threshold: float =
             best_name = name
 
     return best_name if best_score >= threshold else None
+ 
