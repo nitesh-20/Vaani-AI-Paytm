@@ -105,3 +105,4 @@ def categorise_all(transactions: list[dict]) -> list[dict]:
  
  
  
+ 
