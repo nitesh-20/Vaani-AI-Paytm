@@ -185,3 +185,4 @@ def get_peak_spending_hour(transactions: list[dict]) -> dict:
         "total": best_total,
         "count": best_count,
     }
+ 
