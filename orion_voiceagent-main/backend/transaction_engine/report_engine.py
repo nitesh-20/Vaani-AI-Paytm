@@ -174,3 +174,4 @@ def generate_pdf(report: dict, output_dir: str = "data/reports") -> str:
  
  
  
+ 
