@@ -69,3 +69,4 @@ const Sidebar = ({ isOpen, toggleSidebar, onNewChat, chatHistory = [], onLoadCha
 export default Sidebar;
  
  
+ 
