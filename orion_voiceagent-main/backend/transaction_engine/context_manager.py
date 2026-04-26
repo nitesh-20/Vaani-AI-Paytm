@@ -85,3 +85,4 @@ class ContextManager:
             f"intent={self.last_intent!r})"
         )
  
+ 
