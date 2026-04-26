@@ -84,3 +84,4 @@ class ContextManager:
             f"category={self.last_category!r}, "
             f"intent={self.last_intent!r})"
         )
+ 
