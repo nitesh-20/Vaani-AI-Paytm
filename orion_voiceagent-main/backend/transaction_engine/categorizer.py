@@ -98,3 +98,4 @@ def categorise_all(transactions: list[dict]) -> list[dict]:
         n["category"] = categorise(t.get("name", ""))
         result.append(n)
     return result
+ 
