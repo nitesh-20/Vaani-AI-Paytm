@@ -107,3 +107,4 @@ Always be concise. Avoid long lists in voice responses — summarize.
 
 # Export singleton instance
 config = Config()
+ 
