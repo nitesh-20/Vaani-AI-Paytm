@@ -109,3 +109,4 @@ Always be concise. Avoid long lists in voice responses — summarize.
 config = Config()
  
  
+ 
