@@ -412,3 +412,4 @@ def format_whatsapp_sent(success: bool, period: str, lang: str = "en") -> str:
         return "Bhej nahi paya — Twilio settings check karo please."
     return "Couldn't send to WhatsApp — check your Twilio config in .env."
 
+ 
