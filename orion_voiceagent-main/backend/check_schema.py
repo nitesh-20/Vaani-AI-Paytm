@@ -10,3 +10,4 @@ except AttributeError:
     print(f"ChatMessage content type: {llm.ChatMessage.model_fields['content'].annotation}")
  
  
+ 
